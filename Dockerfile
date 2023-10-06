@@ -1,3 +1,3 @@
-FROM qcastel/maven-release:0.0.40
+FROM larsfrancke/maven-release:latest
 
 COPY ./release-github-actions.sh /usr/local/bin
